@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando variáveis em JS</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 10;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello word!</h1>
+    <script>
+        var n1 = Number(prompt('Digite um número:')) 
+        var n2 = Number(prompt('digite outro número:'))
+        /*Se quiser forçar um Float ou um Int, só usar (parseInt) ou (parseFloat).*/
+        var resultado = n1 + n2
+        alert('A soma dos dois números digitados é = ' + resultado) 
+        alert(`A soma dos dois números digitados é de ${resultado}`) 
+        
+        /* Para o PlaceHoader funcionar você tem que usar crase invés de aspas (``${<Nome da variável>}`)*/
+
+        /*Se eu quisesse converter um Int ou Float para Sting. Só escrever - String(<Nome da variável>).*/
+    </script>
+</body>
+</html>
